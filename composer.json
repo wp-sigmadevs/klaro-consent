@@ -1,0 +1,31 @@
+{
+	"name": "sigmadevs/klaro-consent",
+	"description": "Klaro! A Simple Consent Manager.",
+	"type": "wordpress-plugin",
+	"keywords": [ "wordpress", "plugin", "gdpr", "consent-manager" ],
+	"homepage": "https://github.com/wp-sigmadevs/",
+	"license": "GPL",
+	"authors": [
+		{
+			"name": "SigmaDevs",
+			"email": "srafiz@sigmadevs.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/wp-sigmadevs/klaro-consent/issues",
+		"source": "https://github.com/wp-sigmadevs/klaro-consent"
+	},
+	"autoload": {
+		"psr-4": {
+			"SigmaDevs\\KlaroConsent\\": "./includes"
+		}
+	},
+	"scripts": {
+		"cs": "phpcs --standard=phpcs.xml .",
+		"cbf": "phpcbf --standard=phpcs.xml ."
+	},
+	"require": {
+		"php": ">=7.1",
+		"htmlburger/carbon-fields": "^v3.3.4"
+	}
+}

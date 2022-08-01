@@ -1,0 +1,64 @@
+/* ===========================
+	Global Backend CSS
+==============================*/
+:root {
+	--sigma-admin-color: #0073aa;
+	--sigma-admin-hover-color: #135e96;
+	--sigma-admin-offset-color: #edf1fa;
+}
+
+.cf-field {
+	&[hidden] {
+		display: none !important;
+	}
+}
+
+.sigma-d-flex {
+	@extend %d-flex;
+}
+
+.sigma-flex-wrap {
+	@extend %flex-wrap;
+}
+
+.sigma-justify-center {
+	@extend %justify-content-center;
+}
+
+.sigma-justify-start {
+	@extend %justify-content-start;
+}
+
+.sigma-justify-end {
+	@extend %justify-content-end;
+}
+
+.sigma-align-center {
+	@extend %align-items-center;
+}
+
+.sigma-align-start {
+	@extend %align-items-start;
+}
+
+.sigma-align-end {
+	@extend %align-items-end;
+}
+
+.sigma-flex-center {
+	@extend %flex-center;
+}
+
+.sigma-two-col {
+	@extend .sigma-d-flex;
+	@extend .sigma-align-center;
+}
+
+.sigma-transition {
+	@extend %transition;
+}
+
+.postbox-header {
+	z-index: 9;
+	position: relative;
+}

@@ -1,0 +1,89 @@
+/* ===========================
+	Global Frontend CSS
+=============================*/
+
+:root {
+	--sigma-modal-bg: #0073aa;
+	--sigma-modal-text: #0073aa;
+	--sigma-modal-link: #0073aa;
+	--sigma-modal-link-hover: #0073aa;
+	--sigma-modal-switch-on: #0073aa;
+	--sigma-modal-divider: #0073aa;
+	--sigma-heading-font-size: 24px;
+	--sigma-body-font-size: 15px;
+	--sigma-accept-all-bg: #0073aa;
+	--sigma-accept-all-bg-hover: #0073aa;
+	--sigma-accept-sel-bg: #0073aa;
+	--sigma-accept-sel-bg-hover: #0073aa;
+	--sigma-reject-bg: #0073aa;
+	--sigma-reject-bg-hover: #0073aa;
+	--sigma-consent-bg: #0073aa;
+	--sigma-consent-hover-bg: #0073aa;
+	--sigma-consent-text: #fff;
+	--sigma-consent-hover-text: #fff;
+}
+
+.sigma-d-flex {
+	@extend %d-flex;
+}
+
+.sigma-flex-wrap {
+	@extend %flex-wrap;
+}
+
+.sigma-justify-center {
+	@extend %justify-content-center;
+}
+
+.sigma-justify-start {
+	@extend %justify-content-start;
+}
+
+.sigma-justify-end {
+	@extend %justify-content-end;
+}
+
+.sigma-align-center {
+	@extend %align-items-center;
+}
+
+.sigma-align-start {
+	@extend %align-items-start;
+}
+
+.sigma-align-end {
+	@extend %align-items-end;
+}
+
+.sigma-flex-center {
+	@extend %flex-center;
+}
+
+.sigma-two-col {
+	@extend .sigma-d-flex;
+	@extend .sigma-align-center;
+}
+
+.sigma-transition {
+	@extend %transition;
+}
+
+.sigma-relative {
+	@extend %pos-r;
+}
+
+.sigma-absolute {
+	@extend %pos-a;
+}
+
+.sigma-order-1 {
+	order: 1;
+}
+
+.sigma-order-2 {
+	order: 2;
+}
+
+.sigma-order-3 {
+	order: 3;
+}
