@@ -8,23 +8,46 @@
 	padding-right: 20px;
 
 	.header-banner {
-		@extend %d-flex;
-		padding: 50px;
-		justify-content: space-between;
+		padding: 40px 50px;
 		background-color: $admin_color;
-		background-image: url(../images/banner-bg.svg);
+		background-image: url(../images/sigma-klaro-bg.svg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: bottom center;
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+		overflow: hidden;
+
+		@extend .sigma-relative;
+
+		&::before {
+			content: "";
+			right: -40%;
+			bottom: 0;
+			height: 200%;
+			width: 85%;
+			background-image: url(../images/sigma-dots-bg.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			transform: rotate(-45deg);
+
+			@extend .sigma-absolute;
+		}
 
 		h1 {
 			color: $color_white;
-			font-size: 35px;
+			font-size: 45px;
 			padding: 0;
+			margin-left: 50px;
+			max-width: 50%;
+			font-weight: 700;
+			text-shadow: 3px 3px 0 $admin_color, -1px -1px 0 $admin_color,
+				1px -1px 0 $admin_color, -1px 1px 0 $admin_color,
+				1px 1px 0 $admin_color;
 		}
 
 		img {
-			max-width: 200px;
+			max-width: 120px;
 		}
 	}
 }

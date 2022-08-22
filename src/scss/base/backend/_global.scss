@@ -2,9 +2,9 @@
 	Global Backend CSS
 ==============================*/
 :root {
-	--sigma-admin-color: #0073aa;
+	--sigma-admin-color: #3f2b96;
 	--sigma-admin-hover-color: #135e96;
-	--sigma-admin-offset-color: #edf1fa;
+	--sigma-admin-offset-color: #a8c0ff;
 }
 
 .cf-field {
@@ -56,6 +56,14 @@
 
 .sigma-transition {
 	@extend %transition;
+}
+
+.sigma-relative {
+	@extend %pos-r;
+}
+
+.sigma-absolute {
+	@extend %pos-a;
 }
 
 .postbox-header {

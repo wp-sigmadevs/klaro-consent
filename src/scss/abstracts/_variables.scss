@@ -4,9 +4,10 @@ $color_white : #fff;
 $color_offset: #f1f1f1;
 
 //-------------------- Admin Variables --------------------//
-$admin_color       : var(--sigma-admin-color);
-$admin_hover_color : var(--sigma-admin-hover-color);
-$admin_offset_color: var(--sigma-admin-offset-color);
+$admin_color          : var(--sigma-admin-color);
+$admin_secondary_color: var(--sigma-admin-secondary-color);
+$admin_hover_color    : var(--sigma-admin-hover-color);
+$admin_offset_color   : var(--sigma-admin-offset-color);
 
 //-------------------- Frontend Variables --------------------//
 $public_modal_bg_color         : var(--sigma-modal-bg);
